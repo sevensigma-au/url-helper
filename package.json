@@ -1,0 +1,27 @@
+{
+  "name": "@sevensigma/url-helper",
+  "version": "1.0.0",
+  "description": "A module providing utlility methods for handling URL's.",
+  "main": "dist/UrlHelper.js",
+  "types": "dist/UrlHelper.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/tslint --project ./tsconfig.json",
+    "prebuild": "npm run lint",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevensigma-au/url-helper.git"
+  },
+  "author": "sevensigma-au",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sevensigma-au/url-helper/issues"
+  },
+  "homepage": "https://github.com/sevensigma-au/url-helper#readme",
+  "devDependencies": {
+    "tslint": "5.6.0",
+    "typescript": "2.4.2"
+  }
+}
